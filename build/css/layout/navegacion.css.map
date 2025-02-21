@@ -1,0 +1,1 @@
+{"version":3,"sources":["layout/navegacion.scss","layout/navegacion.css"],"names":[],"mappings":"AAAA,OACE,YAAA,CACA,qBCCF","file":"navegacion.css","sourcesContent":[".barra {\n  display: flex;\n  flex-direction: column;\n}\n",".barra {\n  display: flex;\n  flex-direction: column;\n}"]}
