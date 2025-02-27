@@ -2,6 +2,12 @@
   background-color: $grisOscuro;
   padding: $separacion / 2;
 
+  .navegacion {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+  }
+
   .contenido-footer {
     padding-top: $separacion / 2;
   }

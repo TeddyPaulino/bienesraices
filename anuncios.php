@@ -1,27 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anuncios</title>
-    <link rel="stylesheet" href="build/css/app.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="contenedor contenido-header">
-        <div class="barra">
-          <a href="/">
-            <img src="build/img/logo.svg" alt="Logo de la pagina" />
-          </a>
-          <nav class="navegacion">
-            <a href="nosotros.html">Nosotros</a>
-            <a href="anuncios.html">Anuncios</a>
-            <a href="blog.html">Blog</a>
-            <a href="contacto.html">Contacto</a>
-          </nav>
-        </div> <!--Barra-->
-      </div>
-    </header>
+<?php
+  require 'includes/funciones.php';
+ 
+  incluirTemplate('header');
+?>
     <main class="contenedor seccion">
       <h2>Casas y Depas en Venta</h2>
       <div class="contenedor-anuncios">
@@ -37,19 +18,19 @@
             <p class="precio">3,000,000.00</p>
             <ul class="iconos-caracteristicas">
               <li>
-                <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                 <p>3</p>
               </li>
               <li>
-                <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono_estacionamiento">
+                <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono_estacionamiento">
                 <p>3</p>
               </li>
               <li>
-                <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="dormitorio">
+                <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="dormitorio">
                 <p>4</p>
               </li>
             </ul>
-            <a href="anuncio.html" class="boton-amarillo-block ">
+            <a href="anuncio.php" class="boton-amarillo-block ">
               Ver Propiedad
             </a>
           </div> <!--Cierre contenido de anuncio-->
@@ -66,19 +47,19 @@
             <p class="precio">3,000,000.00</p>
             <ul class="iconos-caracteristicas">
               <li>
-                <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                 <p>3</p>
               </li>
               <li>
-                <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono_estacionamiento">
+                <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono_estacionamiento">
                 <p>3</p>
               </li>
               <li>
-                <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="dormitorio">
+                <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="dormitorio">
                 <p>4</p>
               </li>
             </ul>
-            <a href="anuncio.html" class="boton-amarillo-block ">
+            <a href="anuncio.php" class="boton-amarillo-block ">
               Ver Propiedad
             </a>
           </div><!--Cierre contenido de anuncio-->
@@ -95,19 +76,19 @@
             <p class="precio">3,000,000.00</p>
             <ul class="iconos-caracteristicas">
               <li>
-                <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                 <p>3</p>
               </li>
               <li>
-                <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono_estacionamiento">
+                <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono_estacionamiento">
                 <p>3</p>
               </li>
               <li>
-                <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="dormitorio">
+                <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="dormitorio">
                 <p>4</p>
               </li>
             </ul>
-            <a href="anuncio.html" class="boton-amarillo-block ">
+            <a href="anuncio.php" class="boton-amarillo-block ">
               Ver Propiedad
             </a>
           </div> <!--Cierre contenido de anuncio-->
@@ -124,19 +105,19 @@
             <p class="precio">3,000,000.00</p>
             <ul class="iconos-caracteristicas">
               <li>
-                <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                 <p>3</p>
               </li>
               <li>
-                <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono_estacionamiento">
+                <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono_estacionamiento">
                 <p>3</p>
               </li>
               <li>
-                <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="dormitorio">
+                <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="dormitorio">
                 <p>4</p>
               </li>
             </ul>
-            <a href="anuncio.html" class="boton-amarillo-block ">
+            <a href="anuncio.php" class="boton-amarillo-block ">
               Ver Propiedad
             </a>
           </div> <!--Cierre contenido de anuncio-->
@@ -153,19 +134,19 @@
             <p class="precio">3,000,000.00</p>
             <ul class="iconos-caracteristicas">
               <li>
-                <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                 <p>3</p>
               </li>
               <li>
-                <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono_estacionamiento">
+                <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono_estacionamiento">
                 <p>3</p>
               </li>
               <li>
-                <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="dormitorio">
+                <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="dormitorio">
                 <p>4</p>
               </li>
             </ul>
-            <a href="anuncio.html" class="boton-amarillo-block ">
+            <a href="anuncio.php" class="boton-amarillo-block ">
               Ver Propiedad
             </a>
           </div> <!--Cierre contenido de anuncio-->
@@ -182,19 +163,19 @@
             <p class="precio">3,000,000.00</p>
             <ul class="iconos-caracteristicas">
               <li>
-                <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                 <p>3</p>
               </li>
               <li>
-                <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono_estacionamiento">
+                <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono_estacionamiento">
                 <p>3</p>
               </li>
               <li>
-                <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="dormitorio">
+                <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="dormitorio">
                 <p>4</p>
               </li>
             </ul>
-            <a href="anuncio.html" class="boton-amarillo-block ">
+            <a href="anuncio.php" class="boton-amarillo-block ">
               Ver Propiedad
             </a>
           </div> <!--Cierre contenido de anuncio-->
@@ -202,16 +183,6 @@
       </div><!--Cierre contenedor de anuncio-->
       
     </main>
-    <footer class="footer seccion">
-        <div class="contenedor contenido-footer">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>           
-            </div>
-        <p class="copyright">Todos los derechos Reservados 2025 &copy;</p>
-    </footer>
-    <script src="build/js/bundle.min.js"></script>
-  </body>
-</html>
+<?php
+  incluirTemplate('footer');
+?> 
