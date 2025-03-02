@@ -1,9 +1,10 @@
 <?php
-    function conectarDB() {
+    function conectarDB() : mysqli {
         $db = mysqli_connect('localhost', 'root', '', 'bienesraices_crud');
-        if($db) {
-            echo 'Se conecto';
-        }else {
-            echo 'Hubo un error';
+        if(!$db) {
+            echo 'Error no se pudo conectar';
+            exit;
         }
+
+        return $db;
     }
